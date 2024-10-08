@@ -1,0 +1,15 @@
+.greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin: 5rem;
+    user-select: none;
+    transition: 1s;
+}
+
+.greeting:hover {
+    transition: .7s;
+    font-size: xxx-large;
+    color: blueviolet;
+}
